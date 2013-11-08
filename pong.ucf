@@ -1,0 +1,39 @@
+//INST "clk50_BUFGP" LOC = BUFGMUX_X2Y11;
+NET "clk50" LOC = C9;
+NET "clk50" IOSTANDARD = LVCMOS33;
+
+NET "hsync" LOC = F15;
+NET "vsync" LOC = F14;
+
+NET "hsync" IOSTANDARD = LVCMOS33;
+NET "hsync" DRIVE = 8;
+NET "hsync" SLEW = FAST;
+
+NET "vsync" IOSTANDARD = LVCMOS33;
+NET "vsync" DRIVE = 8;
+NET "vsync" SLEW = FAST;
+
+NET "blue[0]" LOC = G15;
+NET "blue[0]" IOSTANDARD = LVCMOS33;
+NET "blue[0]" DRIVE = 8;
+NET "blue[0]" SLEW = FAST;
+
+NET "green[0]" LOC = H15;
+NET "green[0]" IOSTANDARD = LVCMOS33;
+NET "green[0]" DRIVE = 8;
+NET "green[0]" SLEW = FAST;
+
+NET "red[1]" LOC = H14;
+NET "red[1]" IOSTANDARD = LVCMOS33;
+NET "red[1]" DRIVE = 8;
+NET "red[1]" SLEW = FAST;
+
+NET "rota" LOC = K18;
+NET "rota" IOSTANDARD = LVCMOS33;
+NET "rota" PULLUP;
+
+NET "rotb" LOC = G18;
+NET "rotb" IOSTANDARD = LVCMOS33;
+NET "rotb" PULLUP;
+
+
